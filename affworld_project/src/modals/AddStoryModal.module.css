@@ -1,0 +1,116 @@
+.AddStoryModalContainer{
+    background-color: white;
+    height: 64vh;
+    width: 38vw;
+    margin-top: 17.5vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.headingaddstory{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vh;
+}
+.headingaddstory > p{
+    font-family: Roboto;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.AddStoryTitlestar{
+    display: flex;
+    font-size: 13.5px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.AddStorydescriptionstar{
+    display: flex;
+    font-size: 13.5px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.AddStoryImagestar{
+    display: flex;
+    font-size: 13.5px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.AddStoryTitle{
+    margin-bottom: 0px;
+}
+.AddStorydescription{
+    margin-bottom: 0px;
+}
+.AddStoryImage{
+    margin-bottom: 0px;
+}
+.redstar{
+    color: red;
+    margin-bottom: 0px;
+}
+.AddStoryTitleInput{
+    text-indent: 15px;
+    width: 32vw;
+    height: 5vh;
+    border: 1px solid #E2E2E2;
+    border-radius: 5px;
+}
+.AddStorydescriptionInput{
+    width: 30.2vw;
+    height: 10vh;
+    border: 1px solid #E2E2E2;
+    border-radius: 5px;
+    resize: none;
+    padding-top: 2vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+.storytitlediv{
+    margin-left: 2.7vw;
+    margin-top: 1.5vh;
+}
+.storydescriptiondiv{
+    margin-left: 2.7vw;
+    margin-top: 1.5vh;
+}
+.storyimagediv{
+    margin-left: 2.7vw;
+    margin-top: 1.5vh;
+}
+.storyimagediv > input{
+    margin-top: 2vh;
+}
+.redstarPriority{
+    color: red;
+}
+.storybuttonsdiv{
+    display: flex;
+    margin-top: 4vh;
+    justify-content: flex-end;
+    margin-right: 3vw;
+}
+.AddStoryCancelButton{
+    background-color: white;
+    border: 1px solid #CF3636;
+    border-radius: 10px;
+    width: 8vw;
+    height: 4.5vh;
+    color: #CF3636;
+    font-weight: 600;
+    cursor: pointer;
+}
+.AddStorySaveButton{
+    background-color: rgba(46, 46, 46, 0.956);
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+    width: 8vw;
+    height: 4.5vh;
+    font-weight: 600;
+    margin-left: 1vw;
+    cursor: pointer;
+}
+.emailText{
+    margin-left: 0.4vw;
+}

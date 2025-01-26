@@ -1,0 +1,152 @@
+.addtask{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin-top: 1.5vw;
+}
+.addtask > button{
+    margin-right: 4vw;
+    width: 10vw;
+    height: 5vh;
+    background-color: rgba(46, 46, 46, 0.956);
+    color: white;
+    font-family: Roboto;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.taskdiv{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4vh;
+    height: 50vh;
+}
+.taskpendingdiv{
+    width: 25vw;
+    height: 70vh;
+    background-color: #EEF2F5;
+    border-radius: 10px;
+}
+.taskcompleteddiv{
+    width: 25vw;
+    height: 70vh;
+    background-color: #EEF2F5;
+    border-radius: 10px;
+}
+.tasktododiv{
+    width: 25vw;
+    height: 70vh;
+    background-color: #EEF2F5;
+    border-radius: 10px;
+}
+.uppernames{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-family: Roboto;
+}
+.tasklistpending{
+    overflow-y: scroll;
+    height: 60vh;
+}
+.tasklistcompleted{
+    overflow-y: scroll;
+    height: 60vh;
+}
+.tasklisttodo{
+    overflow-y: scroll;
+    height: 60vh;
+}
+.taskmaindiv{
+    width: 20vw;
+    max-height: 50vh;
+    margin-left: 1.4vw;
+    margin-right: 1vw;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 12px;
+    margin-top: 1.5vh;
+    margin-bottom: 1vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 1vh;
+    padding-bottom: 2vh;
+}
+.taskmaindivtitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.taskmaindivtitle > img{
+    height: 1.5vw;
+    width: 1.5vw;
+    cursor: pointer;
+}
+.taskmaindivtitle > p{
+    font-family: Roboto;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.taskmaindivdescriptiontext{
+    font-family: Roboto;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 0px;
+}
+.taskmaindivdescriptiontextvalue{
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    font-weight: 400;
+    overflow-y: scroll;
+    max-height: 34vh;
+}
+.taskmaindivdescriptiontextvalue::-webkit-scrollbar{
+    height: 8px;
+    width: 6px;
+}
+.taskmaindivdescriptiontextvalue::-webkit-scrollbar-track{
+    background-color: #ffffff;
+    border-radius: 2px;
+}
+.taskmaindivdescriptiontextvalue::-webkit-scrollbar-thumb{
+    background-color: #878787cc;
+    border-radius: 5px;
+}
+.tasklistpending::-webkit-scrollbar{
+    height: 8px;
+    width: 10px;
+}
+.tasklistpending::-webkit-scrollbar-track{
+    background-color: #D6EAF4;
+    border-radius: 2px;
+}
+.tasklistpending::-webkit-scrollbar-thumb{
+    background-color: #8DAAB9CC;
+    border-radius: 5px;
+}
+.tasklistcompleted::-webkit-scrollbar{
+    height: 8px;
+    width: 10px;
+}
+.tasklistcompleted::-webkit-scrollbar-track{
+    background-color: #D6EAF4;
+    border-radius: 2px;
+}
+.tasklistcompleted::-webkit-scrollbar-thumb{
+    background-color: #8DAAB9CC;
+    border-radius: 5px;
+}
+.tasklisttodo::-webkit-scrollbar{
+    height: 8px;
+    width: 10px;
+}
+.tasklisttodo::-webkit-scrollbar-track{
+    background-color: #D6EAF4;
+    border-radius: 2px;
+}
+.tasklisttodo::-webkit-scrollbar-thumb{
+    background-color: #8DAAB9CC;
+    border-radius: 5px;
+}

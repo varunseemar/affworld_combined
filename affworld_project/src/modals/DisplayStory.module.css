@@ -1,0 +1,53 @@
+.DisplayStoryModalContainer{
+    background-color: white;
+    height: 75vh;
+    width: 22vw;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0px 0px 20px 0px #ffffff5c;
+}
+.crossAndSaveBar{
+    margin-right: 15px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: flex-end;
+}
+.storycross{
+    height: 18px;
+    width: 18px;
+    cursor: pointer;
+}
+.HeadingDescription{
+    margin-left: 15px;
+    margin-right: 15px;
+    color: white;
+}
+.upperhalf{
+    background-image: linear-gradient(180deg, black, transparent);
+    height: 33%;
+}
+.lowerhalf{
+    background-image: linear-gradient(360deg, #000000, rgb(69 69 69 / 31%));
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.heading{
+    font-size: 23px;
+    word-break: break-word;
+    font-weight: 700;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.description{
+    word-break: break-word;
+    font-size: 13px;
+    margin-bottom: 15px;
+    margin-top: 6px;
+}

@@ -1,0 +1,51 @@
+.headermain{
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    background-color: #f7f7f7;
+    align-items: center;
+    box-shadow: 0px -3px 6px 0px;
+}
+.logo > img{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 7px;
+}
+.user{
+    display: flex;
+    align-items: center;
+}
+.user > p{
+    font-family: Roboto;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.user > img{
+    height: 3rem;
+    width: 3rem;
+    margin-left: 4vw;
+}
+@media(max-width: 768px){
+    .headermain{
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+    }
+    .user > p{
+        font-family: Roboto;
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
+}
+@media(max-width: 420px){
+    .headermain{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .user > p{
+        font-family: Roboto;
+        font-size: 0.8rem;
+        font-weight: 500;
+    }
+}

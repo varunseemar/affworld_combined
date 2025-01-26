@@ -1,0 +1,62 @@
+.dashboardmain{
+
+}
+.headermain{
+
+}
+.leftcomponent{
+    width: 8vw;
+}
+.rightcomponent{
+    width: 92vw;
+}
+.maincontent{
+    display: flex;
+    height: 88vh;
+}
+.LogoutModal{
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.6);
+    justify-content: center;
+    display: flex;
+}
+.AddTaskModal{
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.6);
+    justify-content: center;
+    display: flex;
+}
+.DeleteModal{
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.6);
+    justify-content: center;
+    display: flex;
+}
+.AddStoryModal{
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.6);
+    justify-content: center;
+    display: flex;
+}
+.ViewStoryModal{
+    position: fixed;
+    z-index: 200;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.85);
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+}
